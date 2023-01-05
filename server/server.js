@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const API_KEY = '';
+const API_KEY = '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';
 app.listen(5000, () => {
   console.log('Server listening on port 5000');
 });
